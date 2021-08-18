@@ -2,7 +2,6 @@
     "app_name": "Quest",  
     "description": "Provide AWS-SQS queue functionality using RedisGears", 
     "rank": 240, 
-    "hidden": "true",
     "type": "Full App", 
     "contributed_by": "Community", 
     "repo_url": "https://github.com/redis-developer/quest", 
