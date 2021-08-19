@@ -32,7 +32,7 @@ Will load all of the libraries commands into your local redis server. You could 
 ### unload (WARNING ⚠️ )
 
 ```bash
- make load
+ make unload
 ```
 
 This CLI will unregister commands from a redis server. This was useful while testing but should not be used in a server where other `RedisGears` commands are loaded as this will delete them indescriminately.
