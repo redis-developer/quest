@@ -12,17 +12,33 @@ There are a set of commands in the `Makefile` which will help you run and instal
 
 ### start (Requires Docker)
 
-`make start` runs a `RedisGears` enabled redis server via docker
+```
+ make start
+```
+
+The `make start` CLI runs a `RedisGears` enabled redis server via Docker.
+
+
 
 ### Load
+
+```bash
+ make load
+```
+
 
 Will load all of the libraries commands into your local redis server. You could modify this command to target your remote redis server. After loading this module on a redis server you will be able to run the commands on that server.
 
 ### unload (WARNING ⚠️ )
 
-Will unregister commands from a redis server. This was useful while testing but should not be used in a server where other `RedisGears` commands are loaded as this will delete them indescriminately.
+```bash
+ make load
+```
+
+This CLI will unregister commands from a redis server. This was useful while testing but should not be used in a server where other `RedisGears` commands are loaded as this will delete them indescriminately.
 
 ## API
+
 This module adds 3 different `RedisGears` commands.
 
 ### SendMessage
