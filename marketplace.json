@@ -25,7 +25,7 @@
     "app_image_urls": [
         "https://raw.githubusercontent.com/redis-developer/quest/b8b7f3d7eed66a079d1302d29273ecb4b504bd69/architecture.png"
     ], 
-    "youtube_url": "https://youtu.be/B0lwOWWwHgY", 
+    "youtube_url": "https://www.youtube.com/watch?v=B0lwOWWwHgY", 
     "special_tags": ["Hackathon"],
     "verticals": ["Others"], 
     "markdown": "https://raw.githubusercontent.com/redis-developer/quest/main/README.md"
