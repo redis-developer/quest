@@ -1,32 +1,32 @@
 {
-    "app_name": "Quest",  
-    "description": "Provide AWS-SQS queue functionality using RedisGears", 
-    "rank": 140, 
-    "type": "Full App", 
-    "contributed_by": "Community", 
-    "repo_url": "https://github.com/redis-developer/quest", 
+    "app_name": "Quest",
+    "description": "Provide AWS-SQS queue functionality using Redis Triggers and Functions",
+    "rank": 140,
+    "type": "Full App",
+    "contributed_by": "Community",
+    "repo_url": "https://github.com/redis-developer/quest",
     "preview_image_url": "https://raw.githubusercontent.com/redis-developer/quest/master/images/app_preview_image.png",
     "download_url": "https://github.com/redis-developer/quest/archive/refs/heads/main.zip",
     "hosted_url": "",
-    "quick_deploy": "false", 
+    "quick_deploy": "false",
     "deploy_buttons": [
         {
-            "heroku": "https://heroku.com/deploy?template=https://github.com/redis-developer/quest.git" 
+            "heroku": "https://heroku.com/deploy?template=https://github.com/redis-developer/quest.git"
         },
         {
-            "Google": "https://deploy.cloud.run/?git_repo=https://github.com/redis-developer/quest.git" 
+            "Google": "https://deploy.cloud.run/?git_repo=https://github.com/redis-developer/quest.git"
         }
     ],
-    
-    "language": ["Python"], 
-    "redis_commands": ["SETEX", "HGET", "HGETALL", "RPUSH", "HSET", "LINDEX", "GET", "DEL", "REM", "EXISTS", "SET", "HINCRBY", "LREM"], 
-    "redis_features": ["Queue"],
-    "redis_modules": ["RedisGears"], 
+
+    "language": ["Python"],
+    "redis_commands": ["SETEX", "HGET", "HGETALL", "RPUSH", "HSET", "LINDEX", "GET", "DEL", "REM", "EXISTS", "SET", "HINCRBY", "LREM"],
+    "redis_use_cases": ["Queue"],
+    "redis_features": ["Triggers and Functions"],
     "app_image_urls": [
         "https://raw.githubusercontent.com/redis-developer/quest/b8b7f3d7eed66a079d1302d29273ecb4b504bd69/architecture.png"
-    ], 
-    "youtube_url": "https://www.youtube.com/watch?v=C_ipHcJ5L-E", 
+    ],
+    "youtube_url": "https://www.youtube.com/watch?v=C_ipHcJ5L-E",
     "special_tags": ["Hackathon"],
-    "verticals": ["Others"], 
+    "verticals": ["Others"],
     "markdown": "https://raw.githubusercontent.com/redis-developer/quest/main/README.md"
 }
